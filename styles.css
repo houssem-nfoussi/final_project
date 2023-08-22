@@ -1,0 +1,112 @@
+nav{
+    align-items: center;
+    background-color: black;
+    width: 100%;
+   
+    display: flex;
+    
+    
+    justify-content: space-between;
+}
+nav ul{
+    color: black;
+    display: flex;
+    list-style: none;
+    gap: 88px;
+    text-decoration: none;
+    
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Montserrat, sans-serif;
+       
+}
+a:hover{
+    color: orange;
+}
+.apparel{
+   
+    width: 85%;
+ 
+    margin: 0 auto;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+
+    
+}
+.apparel_title{
+    text-align: center;
+}
+.shirts{
+    
+    
+    width: 30%;
+    background-color: transparent;
+}
+.shirts select{
+    background-color:  yellow;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+}
+.shirts img{
+    width: 100%;
+}
+body {
+    background-color: #63A69F; /* Turquoise */
+    font-family : "roboto",sans-serif;
+    margin: 0;
+  }
+  .text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    align-items: center;
+  }
+  
+  
+  .racquets{
+    
+   
+    width: 85%;
+ 
+    margin: 0 auto;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .rac{
+    text-align: center;
+  }
+  .shoes{
+    width: 85%;
+ 
+    margin: 0 auto;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  h1{
+    text-align: center;
+  }
+  .balls{
+    width: 85%;
+ 
+    margin: 0 auto;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  img{
+    border-radius: 20px;
+  }
+  
