@@ -1,9 +1,29 @@
+header{
+
+  gap: 100px;
+  text-align: center;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+ 
+}
+header h1{
+font-weight: 800;
+font-size: 70px;
+font-family: "Cinzel Decorative", serif;
+}
+header img{
+  width:25% ;
+  
+}
+
 nav{
     align-items: center;
     background-color: black;
     width: 100%;
    
     display: flex;
+    
     
     
     justify-content: space-between;
@@ -16,13 +36,16 @@ nav ul{
     text-decoration: none;
     
     
+    
 
 }
 a{
-    text-decoration: none;
+  text-decoration: none;
     color: white;
     font-size: 22px;
     font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-style:italic;
        
 }
 a:hover{
@@ -50,16 +73,23 @@ a:hover{
     background-color: transparent;
 }
 .shirts select{
-    background-color:  yellow;
-    border-radius: 20px;
-    border-color: black;
-    border-width: 3px;
+  background: linear-gradient(to right, #ffcccc, #ff99cc, #ff66cc);
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+           
+}
+select:hover{
+  background: linear-gradient(to right, #ff66cc, #ff99cc, #ffcccc);
 }
 .shirts img{
     width: 100%;
 }
 body {
-    background-color: #63A69F; /* Turquoise */
+  background: linear-gradient(to bottom right, #ff0000, #00ff00, #0000ff);
     font-family : "roboto",sans-serif;
     margin: 0;
   }
@@ -109,4 +139,104 @@ body {
   img{
     border-radius: 20px;
   }
+  .bags{
+    width: 85%;
+ 
+    margin: 0 auto;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+ button {
+    border: none;
+    background-color: #e7ddca;
+    outline: none;
+}
+button > img {
+    width: 10px;
+    height: 10px;
+}
+.quantity > input {
+    width:20px;
+    background-color: #e7ddca;
+    border: none; 
+}
+.price{
+  font-weight: bolder;
+  font-family: Impact, Charcoal, sans-serif;
   
+}
+.x{
+  font-weight: 600;
+  font-family: 'Futura', sans-serif;
+}
+.reset{
+  background: linear-gradient(to right, #ffcccc, #ff99cc, #ff66cc);
+  color: black;
+  border: none;
+  padding: 10px px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.reset:hover{
+  background: linear-gradient(to right, #ff66cc, #ff99cc, #ffcccc);
+
+}
+footer{
+  align-items: center;
+  text-align: center;
+}
+.shirts {
+  position: relative;
+  display: inline-block;
+}
+
+.shirts img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.shirts:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: lightgray;
+} 
+#total-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-size: large;
+  font-weight: bold;
+}
+#total-price > input {
+  border: none;
+  background-color:#e7ddca;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#total-price p{
+  font-size: 25px;
+  font-family: 'PT Sans', sans-serif;
+}
